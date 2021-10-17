@@ -8,6 +8,7 @@ import RenderizadoElementos from './components/RenderizadoElementos';
 import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos'
 import ComunicacionComponentes from './components/ComunicacionComponentes'
 import CicloDeVida from './components/CicloDeVida'  
+import AjaxApis from './components/AjaxApis'
 
 import './App.css';
 
@@ -69,6 +70,8 @@ function App() {
         <ComunicacionComponentes/>
         <hr/>
         <CicloDeVida/>
+        <hr/>
+        <AjaxApis/>
       </section>
       </header>
       
