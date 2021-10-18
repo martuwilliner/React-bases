@@ -9,6 +9,9 @@ import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos'
 import ComunicacionComponentes from './components/ComunicacionComponentes'
 import CicloDeVida from './components/CicloDeVida'  
 import AjaxApis from './components/AjaxApis'
+import ContadorHooks from './components/ContadorHooks'
+import ScrollHooks from './components/ScrollHooks'
+import RelojHooks from './components/RelojHooks'
 
 import './App.css';
 
@@ -72,6 +75,13 @@ function App() {
         <CicloDeVida/>
         <hr/>
         <AjaxApis/>
+        <hr/>
+        <ContadorHooks/>
+        <hr/>
+        <ScrollHooks/>
+        <hr/>
+        <RelojHooks/>
+        
       </section>
       </header>
       
