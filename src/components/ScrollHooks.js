@@ -18,16 +18,16 @@ export default function ScrollHooks () {
 
     return() => {
         window.removeEventListener("scroll", detectarScroll);
-        console.log('Fase de Desmontaje');
+        /* console.log('Fase de Desmontaje'); */
     }
     }, [scrollY]);
 
     useEffect(() => {
-        console.log('Fase de Montaje')
+        /* console.log('Fase de Montaje') */
     }, []); /* este tiene vacio el [] xq se ejecuta la 1ra vez como el componenteDidUpdate */
 
     useEffect(() => {
-        console.log('Fase de Actualización')
+        /* console.log('Fase de Actualización') */
     })
 
 
