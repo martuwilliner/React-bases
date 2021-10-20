@@ -19,6 +19,7 @@ import './App.css';
 import Referencias from './components/Referencias';
 import Formularios from './components/Formularios';
 import FormularioV2 from './components/FormularioV2';
+import Estilos from './components/Estilos';
 
 
 function App() {
@@ -97,6 +98,8 @@ function App() {
         <Formularios/>
         <hr/>
         <FormularioV2/>
+        <hr/>
+        <Estilos/>
         <br/>
         <br/>
         <br/>
