@@ -17,6 +17,8 @@ import HooksPersonalizados from './components/HooksPersonalizados';
 
 import './App.css';
 import Referencias from './components/Referencias';
+import Formularios from './components/Formularios';
+import FormularioV2 from './components/FormularioV2';
 
 
 function App() {
@@ -91,6 +93,16 @@ function App() {
         <HooksPersonalizados/>
         <hr/>
         <Referencias/>
+        <hr/>
+        <Formularios/>
+        <hr/>
+        <FormularioV2/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         
       </section>
       </header>
